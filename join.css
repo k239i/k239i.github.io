@@ -1,0 +1,165 @@
+body,html {
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+  overflow: hidden;
+}
+body
+{
+ font-family: PixelMplus10 Regular;
+color: white;
+}
+
+@font-face
+{
+font-family: PixelMplus10 Regular;
+src: url('https://cdn.leafscape.be/PixelMplus/PixelMplus10-Regular_web.woff2')
+     format("woff2");
+}
+.mainSite{
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+overflow: auto;
+ background-image: url(background.png);
+}
+.logo
+{
+text-align:center;
+}
+.logo img
+{
+ width: 50%;
+}
+.gif {
+ width: 100%;
+ height: 100%;
+ position: relative;
+background-color: rgb(0,128,128);
+}
+  
+.gifimg {
+ display: block;
+ width: 100%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+ -moz-transform: translate(-50%,-50%);
+ -ms-transform: translate(-50%,-50%);
+ -o-transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%);
+background-color: rgb(0,128,128);
+}
+.mainSite h1 {
+  font-family: 'Playfair Display', serif;
+  padding-left: 60px;
+  padding-top: 60px;
+  margin: 0;
+  font-size: 50px;
+}
+
+#mainframe
+{
+ width: 100%;
+ height: 100%;
+}
+
+nav ul{
+display: table;
+margin: 0 auto;
+padding: 0 ;
+width: 100%;
+height: 35px;
+text-align: center;
+ background-image: url(background2.png);
+}
+nav li{
+display: table-cell;
+min-width: 50px;
+}
+nav a{
+display: block;
+width: 100%;
+text-decoration: none;
+color: white;
+padding-bottom: 5px;
+  font-size: 30px;
+}
+nav li.current{
+border-bottom: 3px solid #92D050;
+}
+nav li:hover{
+color: #E7DA66;
+border-bottom: 3px solid #F0E475;
+}
+
+.button {
+  height: 40px;
+  width: 100%;
+  outline: 2px solid black;
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_center.png');
+  background-repeat: repeat;
+  padding: 0;
+  font-family: PixelMplus10 Regular;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px #4C4C4C;
+  border-bottom: 4px solid #565656;
+  border-right: 2px solid #565656;
+  border-left: 2px solid #AAA;
+  border-top: 2px solid #AAA;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.button span {
+  position: relative;
+  line-height: 40px;
+  bottom: 3px;
+  text-align: center;
+}
+.block {
+    display: inline;
+    background-color:  #ccc;    /* 背景色指定 */
+    padding:  0px;             /* 余白指定 */
+  
+}
+.float-left {
+  float: left;
+  padding:  0px;
+}
+.float-right {
+  float: right;
+  padding:  0px;
+}
+.div1{
+ width: 100%;
+height: auto;
+}
+.button:hover {
+  border-bottom: 4px solid #59639A;
+  border-right: 2px solid #59639A;
+  border-left: 2px solid #BDC6FF;
+  border-top: 2px solid #BDC6FF;
+  background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_active_center.png');
+  color: #FFFFA0;
+  text-align: center;
+}
+
+hr {
+background-image: url(bedrock.png);
+height: 6px;
+border: 1px solid transparent;
+}
+
+@font-face {
+  font-family: "minecraft";
+
+  src: url("/assets/font/minecraft.woff") format("woff");
+}
