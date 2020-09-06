@@ -103,7 +103,7 @@ border-bottom: 3px solid #F0E475;
   position: relative;
   margin: 0;
   display: inline-block;
-  background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_center.png');
+  background-image: url('button_center.png');
   background-repeat: repeat;
   padding: 0;
   font-family: PixelMplus10 Regular;
@@ -147,7 +147,7 @@ height: auto;
   border-right: 2px solid #59639A;
   border-left: 2px solid #BDC6FF;
   border-top: 2px solid #BDC6FF;
-  background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_active_center.png');
+  background-image: url('button_active_center.png');
   color: #FFFFA0;
   text-align: center;
 }
