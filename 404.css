@@ -15,6 +15,10 @@ h1
 {
 font-size: 300px;
 }
+h2
+{
+font-size: 200px;
+}
 @font-face
 {
 font-family: PixelMplus10 Regular;
